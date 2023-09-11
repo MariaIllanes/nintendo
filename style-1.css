@@ -88,28 +88,24 @@ h3 {
 .carousel-container {
     position: relative;
     overflow: hidden;
-    width: 80%;
-    max-width: 100%;
-    margin: 0 auto;
+    width: 90%;
+    margin-right: 10vw;
     grid-area: carousel;
 }
 
 .carousel {
-    display: grid;
-    grid-template-columns: repeat(6, 260px); /* Each card takes up 260px width */
-    gap: 3rem; /* Adjust the gap between cards */
+    display: flex;
     transition: transform 0.5s ease-in-out;
-    overflow-x: auto; /* Enable horizontal scrolling */
 }
 
 .card {
+    flex: 0 0 260px;
     background-color: #f5f5f5;
-    padding: 0px;
+    padding: 20px;
     text-align: center;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
-    max-width: 260px; /* Maximum card width */
-    display: inline-block; /* Ensure cards are in a row */
+    margin: 0 30px; /* Add margin between cards */
 }
 
 .card img {
@@ -117,7 +113,7 @@ h3 {
 }
 
 .card h3 {
-    font-size: 1rem;
+    font-size: 18px;
     margin-top: 10px;
     text-align: left;
     white-space: normal;
@@ -127,7 +123,9 @@ h3 {
     border-left: 2px solid red;
     margin-top: 10px;
     padding-top: 0px;
+    padding-left: 5px;
     font-size: 1rem;
+    text-align: left;
 }
 
 .carousel-arrow {
@@ -145,6 +143,14 @@ h3 {
     transform: translateZ(0px);
     z-index: 10;
     border-radius: 0.25rem 0px 0px 0.25rem;
+    font-size: 3rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.carousel-arrow:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
 }
 
 .left {
@@ -154,3 +160,8 @@ h3 {
 .right {
     right: 0;
 }
+
+
+
+
+

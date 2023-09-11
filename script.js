@@ -13,15 +13,17 @@ function updateCarousel() {
 
 function checkArrowVisibility() {
     if (currentIndex === 0) {
-        prevButton.style.pointerEvents = "none"; // Disable clicking on the left arrow
+        prevButton.style.display = "none"; // Disable clicking on the left arrow
     } else {
+        prevButton.style.display = "block"
         prevButton.style.pointerEvents = "auto"; // Enable clicking on the left arrow
     }
 
-    if (currentIndex === 5) { // Assuming you have 15 cards
-        nextButton.style.pointerEvents = "none"; // Disable clicking on the right arrow
+    if (currentIndex >= 16 - Math.floor(carousel.offsetWidth / cardWidth)) {
+        nextButton.style.display = "none"; // Disable clicking on the right arrow
     } else {
-        nextButton.style.pointerEvents = "auto"; // Enable clicking on the right arrow
+        nextButton.style.pointerEvents = "auto"
+        nextButton.style.display = "block"; // Enable clicking on the right arrow
     }
 }
 
@@ -33,7 +35,7 @@ prevButton.addEventListener("click", () => {
 });
 
 nextButton.addEventListener("click", () => {
-    if (currentIndex < 5) { // Assuming you have 15 cards
+    if (currentIndex < 16 - Math.floor(carousel.offsetWidth / cardWidth)) {
         currentIndex++;
         updateCarousel();
     }
