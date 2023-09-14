@@ -1,0 +1,40 @@
+body {
+    font-family: "Sofia", sans-serif;
+}
+
+section {
+    border-bottom: solid gray;
+    border-width: 0.0625rem;
+}
+
+/* Aún no seguro */
+h1 {
+    font-size: 2rem;
+}
+
+
+h2 {
+    font-size: 1.75rem;
+}
+
+
+h3 {
+ font-size: 1.3125rem;
+}
+
+.btn {
+    border-radius: 0.25rem;
+    background-color: rgb(230, 0, 18);
+    border-color: rgb(230, 0, 18);
+    border-width: 1px;
+    font-size: 1rem;
+    color: white;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+}
+
+.btn:hover {
+    background-color: rgb(172, 0, 13);
+    transform: scaleX(1.05) scaleY(1.05) translateZ(0px);
+}
+
