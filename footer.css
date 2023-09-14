@@ -12,19 +12,30 @@
 
 @media (max-width: 1025px) {
     .footer{
-    grid-template-columns: repeat(4, 15%);
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-areas:
+        "about shop store support"
+        "privacy community privacy";
 }
 }
 
 @media (max-width: 768px) {
     .footer{
-    grid-template-columns: repeat(3, 15%);
+        grid-template-columns: 25% 25% 25%;
+        grid-template-areas:
+        "about shop store"
+        "support privacy community"
+        "support privacy community ";
 }
 }
 
 @media (max-width: 429px) {
     .footer{
-    grid-template-columns: repeat(2, 15%);
+        grid-template-columns: 40% 40%;
+        grid-template-areas:
+        "about shop "
+        "store support"
+        "privacy community";
 }
 }
 
