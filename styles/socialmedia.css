@@ -3,7 +3,7 @@ section.socialmedia-banner {
 }
 
 .social-banner {
-    margin-right: 12%;
+    margin-right: 8%;
     padding: 2rem 1rem;
     color: rgb(255, 255, 255);
     display: flex;
@@ -14,8 +14,8 @@ section.socialmedia-banner {
 
 
 .social-icon img {
-    width: 30px; 
-    height: 30px; 
+    width: auto; 
+    height: 25px; 
     transition: transform 0.2s, border-color 0.2s;
 }
 
@@ -25,7 +25,7 @@ section.socialmedia-banner {
     align-items: center; 
     flex-grow: 0;
     margin-right: auto;
-    margin-left: 200px;
+    margin-left: 12%;
 }
 
 .logo img {
