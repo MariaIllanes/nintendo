@@ -3,13 +3,13 @@ section.socialmedia-banner {
 }
 
 .social-banner {
-    margin-right: 8%;
+    margin-right: 0%;
     padding: 2rem 1rem;
     color: rgb(255, 255, 255);
     display: flex;
     gap: 50px; 
-    align-items: center; 
-    justify-content: flex-end;
+    align-items: start;
+    flex-direction: row;
 }
 
 
@@ -17,18 +17,23 @@ section.socialmedia-banner {
     width: auto; 
     height: 25px; 
     transition: transform 0.2s, border-color 0.2s;
+    margin-top: 0.8rem;
+    margin-left: 50px;
+    justify-self: end;
+    
 }
 
 .logo {
-    justify-content: flex-start; 
-    display: flex;
-    align-items: center; 
-    flex-grow: 0;
+    justify-self: flex-start;
     margin-right: auto;
-    margin-left: 12%;
 }
 
 .logo img {
     width: 200px; 
     height: auto; 
+    justify-self: flex-start;
+}
+
+#sm {
+    justify-self: end;
 }
