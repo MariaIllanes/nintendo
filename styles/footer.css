@@ -106,3 +106,11 @@
     width: 4rem;
     padding-right: 1rem;
 }
+
+.text-overflow {
+    width: 80%;
+}
+
+.cookie-overflow {
+    width: 60%
+}
