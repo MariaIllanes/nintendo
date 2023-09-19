@@ -1,27 +1,34 @@
 .footer {
     display: grid;
     grid-template-columns: repeat(6, 15%);
-    column-gap: 1rem;
+    column-gap: 0rem;
     margin: 0;
     padding: 0 0.5rem;
     width: 100%;
     grid-template-areas:
     "about shop store support privacy community"
     "about shop store support privacy community";
+    align-content: center;
 }
 
 @media (max-width: 1025px) {
     .footer{
-        grid-template-columns: 20% 20% 20% 20%;
+        grid-template-columns: repeat(4, 20%);
         grid-template-areas:
         "about shop store support"
-        "privacy community privacy";
+        "privacy privacy community esrb";
+        align-content: center;
+        column-gap: 1.5rem;
+}
+
+.footer-column h5{
+    width: 60%;
 }
 }
 
 @media (max-width: 768px) {
     .footer{
-        grid-template-columns: 25% 25% 25%;
+        grid-template-columns: 25% 25% 20%;
         grid-template-areas:
         "about shop store"
         "support privacy community"
@@ -35,7 +42,11 @@
         grid-template-areas:
         "about shop "
         "store support"
-        "privacy community";
+        "privacy community";  
+        column-gap: 3rem;
+}
+.footer-column h5{
+    width: 40%;
 }
 }
 
@@ -43,7 +54,7 @@
     border-left: 1px solid rgb(218, 218, 218);
     margin-top: 4rem;
     margin-bottom: 2rem;
-    padding-right: 3rem;
+    padding-right: 0rem;
     padding-left: 1.5rem;
     min-width: 18rem;
     list-style: none;
@@ -53,7 +64,8 @@
 .footer-column h5 {
     font-size: 1.125rem;
     margin-bottom: 1rem;
-    margin-right: 5rem;
+    margin-right: 0rem;
+    width: 80%;
 }
 
 .footer-column a {
@@ -98,11 +110,18 @@
 .img-container {
     display: flex;
     justify-content: flex-end;
+    grid-area: esrb;
 }
-
-
 
 .img-footer {
     width: 4rem;
     padding-right: 1rem;
+}
+
+.text-overflow {
+    max-width: 80%;
+}
+
+.cookie-overflow {
+    max-width: 40%;
 }
