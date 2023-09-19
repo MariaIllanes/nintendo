@@ -37,11 +37,3 @@ h3 {
     background-color: rgb(172, 0, 13);
     transform: scaleX(1.05) scaleY(1.05) translateZ(0px);
 }
-
-.text-overflow {
-    max-width: 80%;
-}
-
-.cookie-overflow {
-    max-width: 60%;
-}
