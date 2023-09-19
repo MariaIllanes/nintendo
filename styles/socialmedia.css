@@ -1,0 +1,39 @@
+section.socialmedia-banner {
+    background-color: rgb(230, 0, 18);
+}
+
+.social-banner {
+    margin-right: 0%;
+    padding: 2rem 1rem;
+    color: rgb(255, 255, 255);
+    display: flex;
+    gap: 50px; 
+    align-items: start;
+    flex-direction: row;
+}
+
+
+.social-icon img {
+    width: auto; 
+    height: 25px; 
+    transition: transform 0.2s, border-color 0.2s;
+    margin-top: 0.8rem;
+    margin-left: 50px;
+    justify-self: end;
+    
+}
+
+.logo {
+    justify-self: flex-start;
+    margin-right: auto;
+}
+
+.logo img {
+    width: 200px; 
+    height: auto; 
+    justify-self: flex-start;
+}
+
+#sm {
+    justify-self: end;
+}
