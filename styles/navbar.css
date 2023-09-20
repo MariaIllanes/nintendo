@@ -111,8 +111,22 @@ button, input, optgroup, select, textarea {
 }
 
 .search-categories-container {
-    flex-basis: 140px;
-    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border: none;
+    min-height: fit-content;
+}
+
+.all-categories-container {
+    padding: 0.125rem 0.25rem 0.125rem 0.5rem;
+}
+
+.all-categories {
+    color: rgb(72, 72, 72);
+    margin-left: 0px;
 }
 
 .nav {
