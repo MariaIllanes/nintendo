@@ -23,14 +23,12 @@ h3 {
 }
 
 .btn {
-    border-radius: 0.25rem;
+    border-radius: 0.6rem;
     background-color: rgb(230, 0, 18);
     border-color: rgb(230, 0, 18);
     border-width: 1px;
     font-size: 1.125rem;
     color: white;
-    width: 10vw;
-    height: 3vw;
 }
 
 .btn:hover {
