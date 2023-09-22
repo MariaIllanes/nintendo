@@ -1,27 +1,55 @@
+.characters{
+    padding-bottom: 2rem;
+    border-bottom: solid lightgray;
+    border-width: 0.0625rem;
+}
+
 .ch-container {
     display: flex;
     flex-direction: row;
-    max-width: 100vw
+    overflow-x:hidden; 
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    max-width: 100%; /* Allow the container to take the full width of its parent */
+    gap: 2vw; /* Add spacing between character images */
 }
 
-.character-img{
-    margin-right: 2vw;
+.character-img {
+    flex: 0 0 auto;
+    position: relative;
 }
 
-.character-img img{
+.character-img .img-background {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 19vw;
     height: 19vw;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    filter: brightness(0.9); 
+    margin-right: 2vw;
+    width: 19vw;
 }
-.characters{
+
+.character-img img {
+    width: 19vw;
+    height: 19vw;
+    transition: transform 200ms ease-in-out;
+    overflow-x: hidden;
+}
+
+.characters {
     padding-left: 7%;
+    overflow: hidden;
 }
 
-.character-img img:hover{
-    transform: scaleX(1.15)scaleY(1.15);
+.character-img:hover img {
+    transform: scale(1.15);
+}
+
+.img-overflow{
     max-height: 19vw;
-    transition: transform 200ms ease-in-out 0s;
+    overflow-x: hidden;
 }
-
-/* .img-container {
-
-} */
