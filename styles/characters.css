@@ -7,11 +7,53 @@
 .ch-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     overflow-x:hidden; 
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    max-width: 100%; /* Allow the container to take the full width of its parent */
-    gap: 2vw; /* Add spacing between character images */
+    padding: 0; 
+    margin: 0; 
+    max-width: 100%;
+    gap: 2vw;
+}
+
+.ch-container h3{
+    max-width: 100%;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 1150px) {
+    .ch-container h3{
+        max-width: 100%;
+        font-size: 1rem;
+    }
+}
+
+
+@media (max-width: 1075px) {
+    .ch-container h3{
+        max-width: 100%;
+        font-size: 0.875rem;
+    }
+}
+
+@media (max-width: 705px) {
+    .ch-container h3{
+        max-width: 100%;
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 605px) {
+    .ch-container h3{
+        max-width: 100%;
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .ch-container h3{
+        max-width: 100%;
+        font-size: 0.4rem;
+    }
 }
 
 .character-img {
@@ -29,7 +71,7 @@
     background-position: center center;
     z-index: -1;
     filter: brightness(0.9); 
-    margin-right: 2vw;
+    margin-right: 0vw;
     width: 19vw;
 }
 
@@ -51,5 +93,7 @@
 
 .img-overflow{
     max-height: 19vw;
+    max-width: 19vw;
     overflow-x: hidden;
+    padding-right: 0;
 }
