@@ -52,6 +52,55 @@ button, input, optgroup, select, textarea {
     margin: 0px;
 }
 
+.mobile-nav {
+    background-color: var(--secundario);
+    height: 2.875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem 0 1rem;
+}
+
+.mobile-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    color: white;
+}
+
+.mobile-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    /* border: 1px solid white;
+    border-radius: 0.25rem; */
+}
+
+.mobile-flag a {
+    height: auto;
+    width: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-flag-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.mobile-flag-image {
+    border: 0.12rem solid white;
+    border-radius: 0.25rem;
+}
+
 .nav-container {
     position: sticky;
     top: 0px;
@@ -61,6 +110,10 @@ button, input, optgroup, select, textarea {
 }
 
 @media (min-width: 1025px) {
+    .mobile-nav {
+        display: none;
+    }
+
     .nav-container {
         display: block;
     }
