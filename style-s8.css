@@ -1,0 +1,251 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.bs-and-nr-container {
+    padding: 2% 3%;
+}
+
+.cards-s8-container {
+    display: flex;
+    gap: 2rem;
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
+}
+
+.carousel-title-s8 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.75rem;
+    margin: 0 0 -0.75rem 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.title-s8 {
+    padding: 0 0 0 0;
+    font-weight: bold;
+}
+
+.carousel-title-separator-s8 {
+    padding: 0 1rem;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    color: lightgray;
+}
+
+.full-list {
+    color: #e60013ff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.carousel-s8-container {
+    padding: 2% 2%;
+    position: relative;
+}
+
+.card-s8 {
+    background-color: white;
+    width: 24vw; 
+    height: auto;
+    min-width: 15rem;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.card-s8-text {
+    padding: 0 1.5vw 1vw 1.5vw;
+}
+
+.img-s8-card {
+    width: 100%; 
+    border-radius: 10px 10px 0 0;
+}
+
+.card-s8-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.date-s8 {
+    font-size: 1rem;
+    color: rgb(94, 94, 94);
+    font-weight: lighter;
+    margin: -0.5rem 0 0 0;
+}
+
+#price-s8-card1{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2.3vw 0 0 0;
+    margin: 2rem 0;
+}
+
+
+#price-s8-card1-1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 2.3vw 0 0 0;
+    margin: 2rem 0;
+}
+
+
+ /* arreglar padding y margin aqui ----------------------- */
+
+.price-s8 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 4vw 0 0 0;
+    margin: 2rem 0;
+}
+
+
+.price-platform-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#price-platform-container-card1 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: -1rem 0 0 0;
+    width: 100%;
+    align-items: center;
+}
+
+#price-platform-container-card1-1 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: -4rem 0 0 0;
+    width: 100%;
+    align-items: center;
+    /* añadir demas tarjetas nr o copiar y modificar */
+}
+
+#platform-s8-1 {
+    margin-top: -1rem;
+}
+
+
+
+
+
+
+
+
+.price-platform-container {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: -1rem 0 0 0;
+    width: 100%;
+    align-items: center;
+}
+
+.platform-heart-s8 {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: -2.5rem 0 0 0;
+    width: 100%;
+    align-items: center;
+}
+
+.s8-separator {
+    color: #e60013ff;
+    padding: 0 5px 0 0;
+    font-size: 1.5rem;
+}
+
+.plaftorm-s8 {
+    font-size: 1rem;
+}
+
+.carousel-arrow-s8 {
+    position: absolute;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgb(218, 218, 218);
+    border: none;
+    cursor: pointer;
+    padding: 2.5rem;
+    outline-offset: -2px;
+    opacity: 1;
+    pointer-events: none;
+    transform: translateZ(0px);
+    z-index: 10;
+    border-radius: 10px;
+    font-size: 3rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* .carousel-arrow-dnr {
+    position: absolute;
+    top: 140px;
+    height: 45vh;
+    background: rgba(0, 0, 0, 0.3);
+    color: rgb(218, 218, 218);
+    border: none;
+    cursor: pointer;
+    padding: 2.5rem;
+    outline-offset: -2px;
+    opacity: 1;
+    pointer-events: none;
+    transform: translateZ(0px);
+    z-index: 10;
+    border-radius: 10px;
+    font-size: 3rem;
+    transition: transform 0.2s ease-in-out;
+} */
+
+.carousel-arrow:hover {
+    transform: scale(1.1);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+
+#right-s8-dbs {
+    top: 0;
+    right: 2rem;
+}
+
+#right-s8-dnr {
+    top: 0;
+    right: 30px;
+}
+
+
+
+@media  (max-width: 900px) {
+    #right-s8-dbs {
+        top: -10px;
+        right: 2rem;
+    }
+    
+    #right-s8-dnr {
+        top: -10px;
+        right: 30px;
+    }
+}
+
+
+@media  (min-width: 1500px) {
+    /* .bs-and-nr-container {
+        padding: 3% 4%;
+        height: 1rem;
+    } */
+}
+
+a {
+    color: inherit;
+}
+
+a:visited {
+    color: #e60013ff;
+}
