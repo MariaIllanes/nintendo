@@ -202,6 +202,13 @@ h2 {
     color: rgb(255, 255, 255);
 }
 
+.preorder-button-a {
+    height: 3rem;
+    font-size: 1.125rem;
+    padding: 0px 1.5rem;
+    width: auto;
+}
+
 @media (min-width: 1025px) {
     .preorder-button-a {
         height: 3rem;
