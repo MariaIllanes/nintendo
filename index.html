@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/socialmedia.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source-Code-Pro">
     <link rel="stylesheet" href="styles/news.css">
+    <link rel="stylesheet" href="styles/bottomnav.css">
     <script src="https://kit.fontawesome.com/95a7ae64d9.js" crossorigin="anonymous"></script>
     <title>Nintendo</title>
 </head>
@@ -424,12 +425,49 @@
      <div class="img-container">
         <img src="/assets/img/ESRB footer.png" alt="ESRB" class="img-footer">
         </div>
-    <nav class="bottom-nav">
+    <nav>
     </nav>
     <script src="/js/script.js"></script>
     <section class="dbsnr">
     </section>
-    <nav class="bottom-nav">
-    </nav>
+    <section data-testid="legalbar" class="bottom-nav">
+        <div class="bottom-nav-text-container">
+            <div class="text-container-divide">
+                <p class="property property-styles">
+                    <span>© Nintendo.</span>
+                    <span>Games are property of their respective owners. </span>
+                    <span>Nintendo of America Inc. Headquarters are in Redmond, Washington, USA</span>
+                </p>
+                <div class="options-container">
+                    <a class="options options-style" href="#">
+                        <span class="options-text-style">Contact us</span>
+                    </a>
+                    <a class="options options-style" href="#">
+                        <span class="options-text-style">Website feedback</span>
+                    </a>
+                    <a class="options options-style" href="#">
+                        <span class="options-text-style">Terms of Use</span>
+                    </a>
+                    <a class="options options-style" href="#">
+                        <span class="options-text-style">Documents & Policies</span>
+                    </a>
+                </div>
+                <a class="bottom-flag" href="#">
+                    <span class="bottom-flag-container">
+                        <picture class="bottom-flag-container-picture">
+                            <source type="image/webp" srcset="assets/FlagUSAIconRegionSelect.webp">
+                            <img src="assets/FlagUsaIconRegionSelect.png" alt="Flag of USA" loading="lazy" class="bottom-flag-container-image">
+                        </picture>
+                    </span>
+                    <span data-testid="language-country" class="language">
+                        English
+                        <!-- -->
+                        <!-- -->
+                        United States
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
