@@ -203,6 +203,10 @@ button, input, optgroup, select, textarea {
     width: 100%;
 }
 
+.navbar-top-form-container form:hover {
+    border-bottom: 1px solid var(--secundario);
+}
+
 @media (min-width: 1025px) {
     .navbar-top-form-container form {
         max-width: 28.125rem;
@@ -240,6 +244,10 @@ button, input, optgroup, select, textarea {
 
 .button-svg svg {
     margin-right: 0.625rem;
+}
+
+.button-svg svg:hover{
+    color: var(--secundario);
 }
 
 .button-svg-svg {
@@ -370,7 +378,7 @@ button, input, optgroup, select, textarea {
     transition: color 200ms ease-in-out 25ms;
 }
 
-.categories-text:hover {
+.categories-text.categories-text.categories-text:hover {
     color:var(--secundario)
 }
 
