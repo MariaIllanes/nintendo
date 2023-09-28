@@ -1,0 +1,36 @@
+.online-store {
+    max-width: 100vw;
+    padding: 3rem;
+    padding-left: 7rem;
+    border-bottom: solid lightgray;
+    border-width: 0.0625rem;
+}
+
+.grid-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto, 1fr;
+    grid-template-rows: auto, 1fr;
+
+}
+
+.online-store-banner {
+    width: 100%;
+    border-radius: 4px;
+    grid-column: 1/3;
+    grid-row: 1/1;
+}
+
+.store-text {
+    grid-column: 1/2;
+    grid-row: 2/2;
+}
+
+#btn-s4 {
+    grid-column: 2/2;
+    grid-row: 2/2;
+    width: 15vw;
+    height: 3vw;
+    justify-self: end;
+    margin-top: 1.75vw;
+}
