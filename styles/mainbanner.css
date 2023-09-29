@@ -8,7 +8,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;  
 }
 
 h2 {
@@ -236,6 +236,12 @@ h2 {
     padding: 0rem;
     border-radius: 0.75rem;
 }
+
+.scale-increase {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
 
 @media (min-width: 1025px) {
   .preorder-button:hover {
