@@ -122,13 +122,13 @@ a:visited {
     text-align: center;
     padding: 22px;
     color: #e60013ff;
-    top: 7rem;
+    top: 6rem;
     right: 5vh;
   }
   
   .close-button1 {
     position: absolute;
-    top: 10px;
+    top: 12px;
     right: 10px;
     background: transparent;
     border: none;
@@ -403,11 +403,17 @@ button {
     .navbar_2_container {
         font-size: 0.8rem;
     }
+
+    .close-button-ns-container, 
+    .close-button-games-container,
+    .close-button-nswitch-container,
+    .close-button-playnintendo-container{
+        top: 7rem;
+      }
 }
 
-  
+
   /* falta: 1. cambiar fuente (al hacer merge), 
   4. añadir a js que, al abrir una seccion, se cierre la anterior y no se acumulen los hidden elements (hay codigo comentado en js pero no funciona bien, impide a los hidden elements que se abran). 
   5. arreglar boton close para que no flote, sino que este en cada seccion y no absoluto (aunque quiza no hace falta una vez se cierren automaticamente los elementos al clicar en otros botones). 
   9. hay alguna forma de hacer que los svg introducidos como codigo cambien de color al hacer hover? (primer y ultimo svg del navbar2 lo hacen, pero los tres centrales, no)*/
-
