@@ -23,7 +23,14 @@ closeButton1.addEventListener('click', () => {
     console.log("Close button clicked. isHidden:", isHidden1);
 });
 
-
+// function clickOutsideHandler1(event) {
+//     if (!hiddenElementBtn1.contains(event.target) && event.target !== showButton1) {
+//         hiddenElementBtn1.style.display = "none";
+//         isHidden1 = true;
+//         console.log("Clicked outside. isHidden:", isHidden1);
+//         document.removeEventListener('click', clickOutsideHandler1);
+//     }
+// }---------- este es el código que no funciona para cerrar las secciones cuando se clica fuera de ellas (en cualquier lugar de la pantalla, en otro botón...)-------------
 
 //Games hidden element--------------------
 
