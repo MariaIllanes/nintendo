@@ -1,29 +1,62 @@
 @media (max-width: 1025px) {
-    .alt-navbar{
-        display: flexbox;
-        -webkit-box-align: center;
-        align-items: center;
-        gap: 1rem;
+    .alt-navbar-container {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        width: 33%;
+        margin-left: 33%;
+        margin-right: auto;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
-    .main-icon{
-        margin-top: -16px;
-        background-color: red;
+    .alt-navbar {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+        justify-content: center;
+        gap: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: white;
+        border-radius: 100px;
+        box-shadow: 2px 5px gray;
+        height: 3.5rem;
+    }
+
+    .main-icon {
+        width: 4rem;
+        height: 4rem;
+        background-color: #e60013ff;;
         color: black;
+        border-radius: 50%;
+        margin-bottom: 0.5rem;
+        border: 0.1px solid white;
     }
 
-    .sec-icon{
+    .sec-icon {
+        width: 3.5rem;
+        height: 3.5rem;
         background-color: aqua;
         color: black;
+
+    }
+
+    .sec-icon h2{
+        justify-self: end;
+    }
+
+    .alt-navbar div {
+        display: block; 
+        text-align: center;
+        align-items: center;
     }
 }
 
-@media (min-width: 1025px) {
-    .alt-navbar{
+@media (min-width: 1024px) {
+    .alt-navbar {
         display: none;
-    }
-
-    .main-icon{
-
     }
 }
