@@ -1,0 +1,29 @@
+@media (max-width: 1025px) {
+    .alt-navbar{
+        display: flexbox;
+        -webkit-box-align: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .main-icon{
+        margin-top: -16px;
+        background-color: red;
+        color: black;
+    }
+
+    .sec-icon{
+        background-color: aqua;
+        color: black;
+    }
+}
+
+@media (min-width: 1025px) {
+    .alt-navbar{
+        display: none;
+    }
+
+    .main-icon{
+
+    }
+}
