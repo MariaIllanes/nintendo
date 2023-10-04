@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow-x:hidden; 
+    overflow: hidden; 
     padding: 0; 
     margin: 0; 
     max-width: 100%;
@@ -76,10 +76,10 @@
 }
 
 .character-img img {
-    width: 19vw;
+    width: 100%;
     height: 19vw;
     transition: transform 200ms ease-in-out;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .characters {
@@ -94,6 +94,6 @@
 .img-overflow{
     max-height: 19vw;
     max-width: 19vw;
-    overflow-x: hidden;
+    overflow: hidden;
     padding-right: 0;
 }
