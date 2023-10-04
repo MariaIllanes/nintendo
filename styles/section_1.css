@@ -1,11 +1,6 @@
-body,
 .navbar_2_container {
     margin: 0%;
     padding: 0%;
-}
-
-html {
-    display: unset;
 }
 
 .navbar_2_container {
@@ -15,10 +10,22 @@ html {
     padding: 1vh 0;
 }
 
-a {
+.navbar_2_container a {
     color: inherit;
     text-decoration: none;
+    font-weight: 700;
     font-size: inherit;
+}
+
+.navbar_2_container h3,
+.hiddenElementBtn1 h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.hiddenElementBtn1 p {
+    font-size: 0.8em;
 }
 
 .blank_space {
@@ -92,6 +99,13 @@ a:visited {
     color: #fff; 
 }
 
+.button-dropdown-header h2 {
+    margin: 0; 
+    align-items: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
 #header-hid-ns {
     display: inline-flex;
 }
@@ -107,10 +121,16 @@ a:visited {
     border: 1px solid #e60013ff;
     color:#e60013ff;
     background-color: inherit;
-    border-radius: 8px;
-    padding: 1rem;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
     font-size: 1rem;
 }
+
+.ns-shop-btn:hover {
+   background-color: rgb(231, 215, 215);
+   transform: scale(1.1);
+}
+
 
 .close-button-ns-container {
     position: absolute; 
@@ -122,7 +142,7 @@ a:visited {
     text-align: center;
     padding: 22px;
     color: #e60013ff;
-    top: 6rem;
+    top: 8rem;
     right: 5vh;
   }
   
@@ -200,7 +220,7 @@ a:visited {
     height: 3px;
     text-align: center;
     padding: 22px;
-    color: #e60013ff;
+    color: white;
     position: absolute;
     top: 6rem;
     right: 5vh;
@@ -286,7 +306,7 @@ a:visited {
     height: 3px;
     text-align: center;
     padding: 22px;
-    color: #e60013ff;
+    color: white;
     position: absolute;
     top: 6rem;
     right: 5vh;
@@ -353,7 +373,7 @@ a:visited {
     height: 3px; 
     text-align: center;
     padding: 22px;
-    color: #e60013ff;
+    color: white;
     top: 6rem;
     right: 5vh;
 }
