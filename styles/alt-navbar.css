@@ -17,7 +17,7 @@
         flex-direction: row;
         align-items: end;
         justify-content: center;
-        gap: 2.5rem;
+        gap: 3%;
         padding-left: 1rem;
         padding-right: 1rem;
         background-color: white;
@@ -27,8 +27,8 @@
     }
 
     .main-icon {
-        width: 5.5rem;
-        height: 4rem;
+        width: 17%;
+        height: 110%;
         background-color: #e60013ff;;
         color: white;
         border-radius: 50%;
@@ -41,7 +41,7 @@
     }
 
     .main-icon h2{
-        margin-top: 1rem;
+        margin-top: 0.8rem;
         font-size: 1.9rem;
     }
 
