@@ -5,11 +5,12 @@
         left: 0;
         right: 0;
         z-index: 1;
-        width: 40%;
-        margin-left: 33%;
+        width: 450px;
+        margin-left: auto;
         margin-right: auto;
         padding-top: 1rem;
         padding-bottom: 1rem;
+        max-width: 100%;
     }
 
     .alt-navbar {
@@ -17,23 +18,28 @@
         flex-direction: row;
         align-items: end;
         justify-content: center;
-        gap: 3%;
+        gap: 7%;
         padding-left: 1rem;
         padding-right: 1rem;
         background-color: white;
         border-radius: 100px;
         box-shadow: 2px 5px gray;
         height: 3.5rem;
+        width: 100%;
+        max-width: 100vw;
     }
 
     .main-icon {
-        width: 17%;
-        height: 110%;
-        background-color: #e60013ff;;
+        width: 4rem;
+        height: 4rem;
+        background-color: #e60013ff;
         color: white;
         border-radius: 50%;
         margin-bottom: 0.5rem;
         border: 0.1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .sec-icon a:hover{
@@ -42,18 +48,19 @@
 
     .main-icon h2{
         margin-top: 0.8rem;
-        font-size: 1.9rem;
+        font-size: 2rem;
     }
 
     .sec-icon {
         width: 3.5rem;
-        height: 3.5rem;
+        height: 4rem;
         color: #484848;
 
     }
 
     .sec-icon h2{
         margin-top: 1.4rem;
+        font-size: 1.6rem;
     }
 
     .alt-navbar div {
