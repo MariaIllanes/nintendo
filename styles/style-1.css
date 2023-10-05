@@ -7,19 +7,38 @@ body {
 }
 
 /* Aún no seguro */
+@media (min-width: 625px) {
 h1 {
     font-size: 2rem;
 }
 
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 1rem;
     font-weight: normal;
 }
 
 
 h3 {
- font-size: 1.4rem;
+ font-size: 2rem;
+ font-weight: normal;
+}
+}
+
+
+h1 {
+    font-size: 1rem;
+}
+
+
+h2 {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+h3 {
+ font-size: 0.7rem;
  font-weight: normal;
 }
 
