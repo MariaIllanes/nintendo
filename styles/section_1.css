@@ -1,0 +1,439 @@
+.navbar_2_container {
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar_2_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vh 0;
+}
+
+.navbar_2_container a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: inherit;
+}
+
+.navbar_2_container h3,
+.hiddenElementBtn1 h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+.hiddenElementBtn1 p {
+    font-size: 0.8em;
+}
+
+.blank_space {
+    width: 15%;
+    background-color: #fff;
+}
+
+.button-navbar-2 {
+    font-size: calc(0.1vh + 1em);
+    border: none;
+    color: rgb(68, 68, 68);
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    gap: 0.5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0 1rem;
+}
+
+
+a:visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+.button-navbar-2:hover {
+    color: #e60013ff;
+}
+
+
+
+/* hidden elements */
+/* My Nintendo Store Hidden Element 1*/
+.ns {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 2vh;
+    gap: 1vh;
+    margin: 2rem 4rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+.ns p a {
+    font-weight: lighter;
+}
+
+.h3-s1 {
+    font-weight: bold;
+}
+
+.svg-ns-title {
+    color: #fff;
+  }
+
+.hiddenElementBtn1 {
+    width: 100%;
+}
+
+.button-dropdown-header {
+    background-color: #e60013ff;
+    display: inline-flex;
+    width: 100%;
+    height: 6rem;
+    justify-content: center;    
+    align-items: center;
+    color: #fff; 
+}
+
+.button-dropdown-header h2 {
+    margin: 0; 
+    align-items: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+#header-hid-ns {
+    display: inline-flex;
+}
+
+.ns-shop-btn-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.ns-shop-btn {
+    border: 1px solid #e60013ff;
+    color:#e60013ff;
+    background-color: inherit;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+}
+
+.ns-shop-btn:hover {
+   background-color: rgb(231, 215, 215);
+   transform: scale(1.1);
+}
+
+
+.close-button-ns-container {
+    position: absolute; 
+    display: inline; 
+    background-color: #f2f2f2;
+    border-radius: 50%; 
+    width: 3px; 
+    height: 3px; 
+    text-align: center;
+    padding: 22px;
+    color: #e60013ff;
+    top: 8rem;
+    right: 5vh;
+  }
+  
+  .close-button1 {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .close-button1 span {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+
+/* Games Hidden Element 2*/
+.hiddenElementBtn2 {
+    width: 100%;
+    display: none;
+}
+
+.games_dropdown {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0 2vh;
+    gap: 5rem;
+    padding: 1rem 0;
+}
+
+.games-button-dropdown {
+    font-size: 1.5rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.games-button-dropdown:hover {
+    font-size: 1.75rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #e60013ff;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.close-button2,
+.close-button3,
+.close-button4 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgb(169, 167, 167);
+    border: none;
+    cursor: pointer;
+}
+
+.close-button2 span,
+.close-button4 span,
+.close-button3 span {
+    font-size: 24px;
+    line-height: 1;
+}
+
+.close-button-games-container {
+    position: relative;
+    background-color: rgb(169, 167, 167);
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    text-align: center;
+    padding: 22px;
+    color: white;
+    position: absolute;
+    top: 6rem;
+    right: 5vh;
+}
+
+.hidden-games-options,
+.hidden-nswitch-options,
+.hidden-playnintendo-options {
+    display: flex;
+    font-size: 1rem;
+    justify-content: center;    
+    align-content: center;
+}
+
+.svg-games {
+    align-content: center;
+    border: 1px solid lightgrey;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+}
+
+.hidden-ns-title {
+    display: flex;
+}
+
+#svg-ns-1 {
+    align-self: center;
+    padding: 0 5px;
+}
+
+.svg-mns {
+    display: flex;
+}
+
+.svg-ns {
+    align-self: center;
+    padding: 0 5px
+}
+
+/* Nintendo Switch Hidden Element 3*/
+
+.hiddenElementBtn3 {
+    width: 100%;
+    display: none;
+}
+
+.nswitch_dropdown {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 2rem 2vh;
+    gap: 5rem;
+    padding: 1rem 0;
+}
+
+.nswitch-button-dropdown {
+    font-size: 1rem;
+    width: 10rem;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.nswitch-button-dropdown:hover {
+    font-size: 1.2rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #e60013ff;
+    color: #fff;
+    border-radius: 15px;
+}
+
+
+.close-button-nswitch-container {
+    position: relative; 
+    background-color: rgb(169, 167, 167);
+    border-radius: 50%;
+    width: 3px;
+    height: 3px;
+    text-align: center;
+    padding: 22px;
+    color: white;
+    position: absolute;
+    top: 6rem;
+    right: 5vh;
+}
+
+.nswitch-img {
+    height: 4rem;
+    width: auto;
+    align-content: center;
+    border: 1px solid lightgrey;
+    border-radius: 15px;
+}
+
+
+/* Play Nintendo Hidden Element */
+.hiddenElementBtn4 {
+    width: 100%;
+    display: none;
+}
+
+.playnintendo_dropdown {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0 2vh;
+    gap: 5rem;
+    padding: 1rem 0;
+}
+
+.playnintendo-button-dropdown {
+    font-size: 1rem;
+    width: 10rem;
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.playnintendo-button-dropdown:hover {
+    font-size: 1.2rem;
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #e60013ff;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.svg-playnintendo {
+    align-content: center;
+    border: 1px solid lightgrey;
+    padding: 1rem 3rem;
+    border-radius: 15px;
+}
+
+
+.close-button-playnintendo-container {
+    position: absolute; 
+    background-color: rgb(169, 167, 167);
+    border-radius: 50%; 
+    width: 3px; 
+    height: 3px; 
+    text-align: center;
+    padding: 22px;
+    color: white;
+    top: 6rem;
+    right: 5vh;
+}
+
+
+/* media queries */
+@media  (max-width: 1024px) {
+.navbar_2_container {
+    display: none;
+    font-weight: bold;
+}
+    
+#hid-el-ns {
+    display: none;
+}
+
+.ns div, 
+.ns-shop-btn-container,
+.games_dropdown div,
+.playnintendo_dropdown,
+.nswitch_dropdown,
+button {
+    display: none;
+}
+}
+    
+@media  (max-width: 1300px) {
+.blank_space {
+    width: 5%;
+}
+    
+.button-navbar-2 {
+    font-size: calc(1rem + 0.1vw);
+}
+}
+    
+@media  (max-width: 1400px) {
+.button-navbar-2 {
+    font-size: calc(1rem + 0.1vw);
+}
+}
+
+@media  (min-width: 1800px) {
+    .blank_space {
+        width: 25%;
+    }
+    .navbar_2_container {
+        font-size: 0.8rem;
+    }
+
+    .close-button-ns-container, 
+    .close-button-games-container,
+    .close-button-nswitch-container,
+    .close-button-playnintendo-container{
+        top: 7rem;
+      }
+}
+
+
+  /* falta: 1. cambiar fuente (al hacer merge), 
+  4. añadir a js que, al abrir una seccion, se cierre la anterior y no se acumulen los hidden elements (hay codigo comentado en js pero no funciona bien, impide a los hidden elements que se abran). 
+  5. arreglar boton close para que no flote, sino que este en cada seccion y no absoluto (aunque quiza no hace falta una vez se cierren automaticamente los elementos al clicar en otros botones). 
+  9. hay alguna forma de hacer que los svg introducidos como codigo cambien de color al hacer hover? (primer y ultimo svg del navbar2 lo hacen, pero los tres centrales, no)*/

@@ -6,14 +6,18 @@
     <link rel="stylesheet" href="styles/style-1.css">
     <link rel="stylesheet" href="styles/featured.css">
     <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/mainbanner.css">
     <link rel="stylesheet" href="styles/alt-navbar.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/socialmedia.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source-Code-Pro">
     <link rel="stylesheet" href="styles/news.css">
+    <link rel="stylesheet" href="styles/bottomnav.css">
     <link rel="stylesheet" href="styles/characters.css">
     <link rel="stylesheet" href="styles/section5.css">
-  <link rel="stylesheet" href="styles/online-store.css">
+    <link rel="stylesheet" href="styles/online-store.css">
+    <link rel="stylesheet" href="styles/section_1.css">
+    <link rel="stylesheet" href="styles/section_8.css">
     <script src="https://kit.fontawesome.com/95a7ae64d9.js" crossorigin="anonymous"></script>
     <title>Nintendo</title>
 </head>
@@ -110,7 +114,7 @@
                     </div>
                     <div data-testid="flyover-overlay" tabindex="-1" aria-hidden="true" class="invisible-inside-two"></div>
                 </div>
-            </div> <!-- termina div 1 de header -->
+            </div> 
 
             <div class="menu-container menu-container-style"> <!-- empieza div 2 de header -->
                 <a href="#" class="link-style-one link-style-two">
@@ -147,10 +151,330 @@
                         </picture>
                     </span>
                 </a>
-            </div> <!-- div 2 de header termina -->
+            </div> 
         </header>
     </nav>
-    <nav class="alt-navbar-container">
+<section class="navbar_2_container">
+    <span class="blank_space" id="blank_space_s1_1"></span>
+    <div class="trigger">
+        <button class="button-navbar-2" id="showButton-store">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M9 8a3 3 0 0 0 6 0" />
+            </svg><h3 class="link-text">My Nintendo Store</h3>
+        </button>
+    </div>
+    <div class="trigger">
+        <button class="button-navbar-2" id="showButton-games">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3A3938" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
+                <path d="M6 12h4m-2 -2v4" />
+                <path d="M15 11l0 .01" />
+                <path d="M18 13l0 .01" />
+            </svg><h3 class="link-text">Games</h3>
+        </button>
+    </div>
+    <div class="trigger">
+        <button class="button-navbar-2" id="showButton-switch">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3A3938" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 20v-16h-3a4 4 0 0 0 -4 4v8a4 4 0 0 0 4 4h3z" />
+                <path d="M14 20v-16h3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-3z" />
+                <circle cx="17.5" cy="15.5" r="1" fill="currentColor" />
+                <circle cx="6.5" cy="8.5" r="1" fill="currentColor" />
+            </svg><h3 class="link-text">Nintendo Switch</h3>
+        </button>
+    </div>
+    <div class="trigger">
+        <button class="button-navbar-2" id="showButton-news">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg" id="svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3A3938" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11" />
+                <path d="M8 8l4 0" />
+                <path d="M8 12l4 0" />
+                <path d="M8 16l4 0" />
+            </svg><a href="https://www.nintendo.com/whatsnew/" class="link-text" id="navbar-news-s1"><h3>News & Events</h3></a>
+        </button>
+    </div>
+    <div class="trigger">
+        <button class="button-navbar-2" id="showButton-play">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg" width="1.5rem" height="1.5rem" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+            </svg><h3 class="link-text">Play Nintendo</h3>
+        </button>
+    </div>
+    <span class="blank_space" id="blank_space_s1_2"></span>
+</section>
+<!-- hidden navbar's section -->
+<!-- 1st hidden section -->
+<div class="hiddenElementBtn1">
+    <div class="button-dropdown-header" id="hid-el-ns">
+        <span class="hidden-ns-title">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg-ns-title" id="svg-ns-1" width="35px" height="35px" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                <path d="M9 8a3 3 0 0 0 6 0" />
+            </svg>
+            <h2 id="header-hid-ns">My Nintendo Store</h2> 
+        </span>
+        
+        <div class="close-button-ns-container">
+            <button class="close-button1">
+              <span>&times;</span>
+            </button>
+        </div>
+          
+    </div>
+    <div class="ns">
+        <div class="ns-games-s1">
+            <h3 class="svg-mns">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-ns" width="1rem" height="1rem" id="svg-ns-2" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z" />
+                <path d="M6 12h4m-2 -2v4" />
+                <path d="M15 11l0 .01" />
+                <path d="M18 13l0 .01" />
+                </svg>
+                <a href="https://www.nintendo.com/store/games/" class="h3-s1" id="h3-1-s1">Games</a>
+            </h3>
+            <p><a href="https://www.nintendo.com/store/games/nintendo-switch-games/" class="games-options">Nintendo Switch games</a></p>
+            <p><a href="https://www.nintendo.com/store/games/new-releases/" class="games-options">New releases</a></p>
+            <p><a href="https://www.nintendo.com/store/sales-and-deals/" class="games-options">Sales & deals</a></p>
+        </div>
+
+        <div class="ns-hardware-s1">
+            <h3 class="svg-mns">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-ns" width="1rem" height="1rem" id="svg-ns-3" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 5h3.5a5 5 0 0 1 0 10h-5.5l-4.015 4.227a2.3 2.3 0 0 1 -3.923 -2.035l1.634 -8.173a5 5 0 0 1 4.904 -4.019h3.4z" />
+                    <path d="M14 15l4.07 4.284a2.3 2.3 0 0 0 3.925 -2.023l-1.6 -8.232" />
+                    <path d="M8 9v2" />
+                    <path d="M7 10h2" />
+                    <path d="M14 10h2" />
+                  </svg>
+                <a href="https://www.nintendo.com/store/hardware/" class="h3-s1" id="h3-2-s1">Hardware</a>
+            </h3>
+            <p><a href="https://www.nintendo.com/store/hardware/systems/" class="hardware-options">Nintendo Switch systems</a></p>
+            <p><a href="https://www.nintendo.com/store/hardware/joy-con-and-controllers/" class="hardware-options">Joy-Con & controllers</a></p>
+            <p><a href="https://www.nintendo.com/store/hardware/accessories/" class="hardware-options">Cases & more</a></p>
+            <p><a href="https://www.nintendo.com/store/hardware/parts/" class="hardware-options">Replacement parts</a></p>
+        </div>
+
+        <div class="ns-merchandise-s1">
+            <h3 class="svg-mns">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-ns" width="1rem" height="1rem" id="svg-ns-4" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 10.5l1.436 -4c.318 -.876 .728 -1.302 1.359 -1.302c.219 0 1.054 .365 1.88 .583c.825 .219 .733 -.329 .908 -.487c.176 -.158 .355 -.294 .61 -.294c.242 0 .553 .048 1.692 .448c.759 .267 1.493 .574 2.204 .922c1.175 .582 1.426 .913 1.595 1.507l.816 4.623c2.086 .898 3.5 2.357 3.5 3.682c0 1.685 -1.2 3.818 -5.957 3.818c-6.206 0 -14.043 -4.042 -14.043 -7.32c0 -1.044 1.333 -1.77 4 -2.18z" />
+                    <path d="M6 10.5c0 .969 4.39 3.5 9.5 3.5c1.314 0 3 .063 3 -1.5" />
+                  </svg>
+                <a href="https://www.nintendo.com/store/merchandise/" class="h3-s1" id="h3-3-s1">Merchandise</a>
+            </h3>
+            <p><a href="https://www.nintendo.com/store/merchandise/apparel/" class="merch-options">Apparel & accesories</a></p>
+            <p><a href="https://www.nintendo.com/store/merchandise/home-and-office/" class="merch-options">Home & office</a></p>
+            <p><a href="https://www.nintendo.com/store/merchandise/plush/" class="merch-options">Plush</a></p>
+            <p><a href="https://www.nintendo.com/store/merchandise/toys/" class="merch-options">Toys</a></p>
+        </div>
+
+        <div class="ns-se-s1">
+            <h3 class="svg-mns">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-ns" width="1rem" height="1rem" id="svg-ns-5" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z" />
+                  </svg>
+                <a href="https://www.nintendo.com/store/exclusives/" class="h3-s1" id="h3-4-s1">Store exclusives</a>
+            </h3>
+            <p><a href="https://www.nintendo.com/store/exclusives/products/" class="se-options">Exclusive products</a></p>
+            <p><a href="https://www.nintendo.com/store/exclusives/rewards/" class="se-options">My Nintendo rewards</a></p>
+            <p><a href="https://www.nintendo.com/store/exclusives/online/" class="se-options">Nintendo Switch Online offers</a></p>
+        </div>
+
+        <div class="ns-char-s1">
+            <h3 class="svg-mns">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-ns" width="1rem" height="1rem" id="svg-ns-6" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M13 4m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    <path d="M4 17l5 1l.75 -1.5" />
+                    <path d="M15 21l0 -4l-4 -3l1 -6" />
+                    <path d="M7 12l0 -3l5 -1l3 3l3 1" />
+                  </svg>
+                <a href="https://www.nintendo.com/store/characters/" class="h3-s1" id="h3-5-s1">Characters</a>
+            </h3>
+            <p><a href="https://www.nintendo.com/store/characters/pikmin/" class="characters-options">Pinkim</a></p>
+            <p><a href="https://www.nintendo.com/store/characters/splatoon/" class="characters-options">Splatoon</a></p>
+            <p><a href="https://www.nintendo.com/store/characters/mushroom-kingdom/" class="characters-options">Super Mario</a></p>
+            <p><a href="https://www.nintendo.com/store/characters/zelda/" class="characters-options">The Legend of Zelda</a></p>
+        </div>
+
+        <div class="ns-sales-s1">
+            <h3 class="svg-mns">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-ns" width="1rem" height="1rem" id="svg-ns-6" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 15l6 -6" />
+                    <circle cx="9.5" cy="9.5" r=".5" fill="currentColor" />
+                    <circle cx="14.5" cy="14.5" r=".5" fill="currentColor" />
+                    <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                  </svg>
+                <a href="https://www.nintendo.com/store/sales-and-deals/" class="h3-s1" id="h3-6-s1">Sales & deals</a>
+            </h3>
+        </div>
+    </div>
+    <div class="ns-shop-btn-container">
+        <button class="ns-shop-btn" id="ns-shop-btn"><a href="https://www.nintendo.com/store/">Shop all</a></button>
+    </div>
+</div>
+
+<!-- 2nd hidden section -->
+<div class="hiddenElementBtn2" id="hid-el-games">
+    <div class="games_dropdown">
+        <div class="games-button-dropdown" id="games-btn-dp1">
+            <a href="https://www.nintendo.com/store/games/nintendo-switch-games/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-games" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M10 20v-16h-3a4 4 0 0 0 -4 4v8a4 4 0 0 0 4 4h3z" />
+                    <path d="M14 20v-16h3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-3z" />
+                    <circle cx="17.5" cy="15.5" r="1" fill="currentColor" />
+                    <circle cx="6.5" cy="8.5" r="1" fill="currentColor" />
+                </svg>
+                <p class="hidden-games-options" id="hidden-games-options1">Nintendo Switch games</p>
+            </a>
+        </div>
+
+        <div class="games-button-dropdown" id="games-btn-dp2">
+            <a href="https://www.nintendo.com/store/games/new-releases/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-games" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M18 8a3 3 0 0 1 0 6" />
+                    <path d="M10 8v11a1 1 0 0 1 -1 1h-1a1 1 0 0 1 -1 -1v-5" />
+                    <path d="M12 8h0l4.524 -3.77a.9 .9 0 0 1 1.476 .692v12.156a.9 .9 0 0 1 -1.476 .692l-4.524 -3.77h-8a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h8" />
+                </svg>
+                <p class="hidden-games-options" id="hidden-games-options2">New releases</p>
+            </a>
+        </div>
+
+        <div class="games-button-dropdown" id="games-btn-dp3">
+            <a href="https://www.nintendo.com/store/games/coming-soon/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-games" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M11.5 21h-5.5a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v6" />
+                    <path d="M16 3v4" />
+                    <path d="M8 3v4" />
+                    <path d="M4 11h16" />
+                    <path d="M15 19l2 2l4 -4" />
+                </svg>
+                <p class="hidden-games-options" id="hidden-games-options3">Coming soon</p>
+            </a>
+        </div>
+        
+        <div class="games-button-dropdown" id="games-btn-dp4">
+            <a href="https://www.nintendo.com/store/games/">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-games" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 5m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                    <path d="M20 12.5v4.75a.734 .734 0 0 1 -.055 .325a.704 .704 0 0 1 -.348 .366l-5.462 2.58a5 5 0 0 1 -4.27 0l-5.462 -2.58a.705 .705 0 0 1 -.401 -.691l0 -4.75" />
+                    <path d="M4.431 12.216l5.634 -2.332a5.065 5.065 0 0 1 3.87 0l5.634 2.332a.692 .692 0 0 1 .028 1.269l-5.462 2.543a5.064 5.064 0 0 1 -4.27 0l-5.462 -2.543a.691 .691 0 0 1 .028 -1.27z" />
+                    <path d="M12 7l0 6" />
+                </svg>
+                <p class="hidden-games-options" id="hidden-games-options4">Shop games</p>
+            </a>
+        </div>
+
+        <div class="close-button-games-container">
+            <button class="close-button2">
+              <span>&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- 3rd hidden section -->
+<div class="hiddenElementBtn3" id="hid-el-nswitch">
+    <div class="nswitch_dropdown">
+        <a href="https://www.nintendo.com/switch/">
+            <div class="nswitch-button-dropdown">
+                <img src="assets/img/ns-nslineup.png" class="nswitch-img" id="nswitch-img-1" alt="Nintendo Switch lineup">
+                <p class="hidden-nswitch-options" id="hidden-nswitch-options1">Nintendo Switch lineup</p>
+            </div>
+        </a>
+
+        <a href="https://www.nintendo.com/switch/compare/">
+            <div class="nswitch-button-dropdown">
+                <img src="assets/img/ns-compare.png" class="nswitch-img" id="nswitch-img-2" alt="Nintendo Switch lineup">
+                <p class="hidden-nswitch-options" id="hidden-nswitch-options2">Compare systems</p>
+            </div>
+        </a>
+
+        <a href="https://www.nintendo.com/switch/online/">
+            <div class="nswitch-button-dropdown">
+                <img src="assets/img/ns-online-service.png" class="nswitch-img" id="nswitch-img-3" alt="Nintendo Switch lineup">
+                <p class="hidden-nswitch-options" id="hidden-nswitch-options3">Online service</p>
+            </div>
+        </a>
+
+        <a href="https://www.nintendo.com/store/hardware/">
+            <div class="nswitch-button-dropdown">
+                <img src="assets/img/ns-accessories.png" class="nswitch-img" id="nswitch-img-4" alt="Nintendo Switch lineup">
+                <p class="hidden-nswitch-options" id="hidden-nswitch-options4">Accesories</p>
+            </div>
+        </a>
+
+        <a href="https://www.nintendo.com/store/hardware/systems/">
+            <div class="nswitch-button-dropdown">
+                <img src="assets/img/ns-shop-systems.png" class="nswitch-img" id="nswitch-img-5" alt="Nintendo Switch lineup">
+                <p class="hidden-nswitch-options" id="hidden-nswitch-options5">Shop systems</p>
+            </div>
+        </a>
+
+        <div class="close-button-nswitch-container">
+            <button class="close-button3">
+              <span>&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- 4th hidden section -->
+<div class="hiddenElementBtn4" id="hid-el-playnintendo">
+<div class="playnintendo_dropdown">
+    <a href="https://play.nintendo.com/?_gl=1*1yj29a8*_ga*MTQ1OTc2MTY2Ni4xNjk0MDg0Mjg5*_ga_F6ERC4HMNZ*MTY5NjM0NDI3NS41MC4xLjE2OTYzNDY5MzguMC4wLjA.">
+        <div class="playnintendo-button-dropdown">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg-playnintendo" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3.5 17.5c5.667 4.667 11.333 4.667 17 0" />
+                <path d="M19 18.5l-2 -8.5l1 -2l2 1l1.5 -1.5l-2.5 -4.5c-5.052 .218 -5.99 3.133 -7 6h-6a3 3 0 0 0 -3 3" />
+                <path d="M5 18.5l2 -9.5" />
+                <path d="M8 20l2 -5h4l2 5" />
+            </svg>
+            <p class="hidden-playnintendo-options" id="hidden-playnintendo-options2">For kids</p>
+        </div>
+    </a>
+
+    <a href="https://play.nintendo.com/parents/?_gl=1*16qox96*_ga*MTQ1OTc2MTY2Ni4xNjk0MDg0Mjg5*_ga_F6ERC4HMNZ*MTY5NjM0NDI3NS41MC4xLjE2OTYzNDY5MzguMC4wLjA.">
+        <div class="playnintendo-button-dropdown">
+            <svg xmlns="http://www.w3.org/2000/svg" class="svg-playnintendo" width="60" height="60" viewBox="0 0 24 24" stroke-width="1.5" stroke="#9e9e9e" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M12 21a9 9 0 1 1 0 -18a9 9 0 0 1 0 18z" />
+                <path d="M10 10c-.5 -1 -2.5 -1 -3 0" />
+                <path d="M17 10c-.5 -1 -2.5 -1 -3 0" />
+                <path d="M14.5 15a3.5 3.5 0 0 1 -5 0" />
+            </svg>
+            <p class="hidden-playnintendo-options" id="hidden-playnintendo-options1">For parents</p>
+        </div>
+    </a>
+
+    <div class="close-button-playnintendo-container">
+        <button class="close-button4">
+          <span>&times;</span>
+        </button>
+    </div>
+</div>
+</div>
+
+<section class="main-banner"></section>
+
+<nav class="alt-navbar-container">
     <div class="alt-navbar">
         <div class="sec-icon"><h2><a href="#"><i class="fa-solid fa-bars" ></i></a></h2></div>
         <div class="sec-icon"><h2><a href="#"><i class="fa-solid fa-heart" ></i></a></h2></div>
@@ -159,14 +483,57 @@
         <div class="sec-icon"><h2><a href="#"><i class="fa-solid fa-user" ></i></a></h2></div>
     </div>
     </nav>
-    <section class="main-banner"></section>
+    <section class="mainbanner-container">
+        <div class="main-banner-background"></div>
+        <div class="main-banner">
+            <a aria-label="The next evolution of Mario fun! Jump in 10/20" href="#">
+                <div class="mainbanner-picture-container">
+                    <picture data-testid="hero-picture" class="pic">
+                        <source media="(min-width: 1440px)" srcset="assets/3600x1300_SMBWonder.avif" width="1440" height="542">
+                        <source media="(min-width: 1280px)" srcset="assets/3600x1300_SMBWonder.avif" width="1280" height="469">
+                        <source media="(min-width: 1025px)" srcset="assets/3600x1300_SMBWonder.avif" width="1025" height="397">
+                        <source media="(min-width: 926px)" srcset="assets/2200x2000_SMBW.avif" width="926px" height="909">
+                        <source media="(min-width: 844px)" srcset="assets/2200x2000_SMBW.avif" width="844px" height="818">
+                        <source media="(min-width: 768px)" srcset="assets/2200x2000_SMBW.avif" width="768px" height="727">
+                        <source media="(min-width: 610px)" srcset="assets/2200x2000_SMBW.avif" width="610px" height="636">
+                        <source media="(min-width: 516px)" srcset="assets/2200x2000_SMBW.avif" width="926px" height="545">
+                        <source media="(min-width: 416px)" srcset="assets/2200x2000_SMBW.avif" width="416px" height="455">
+                        <source media="(min-width: 316px)" srcset="assets/2200x2000_SMBW.avif" width="316px" height="364">
+                        <img src="assets/2200x2000_SMBW.avif" alt="Banner_MarioBross" class="mario_image" fetchpriority="high" loading="auto">
+                    </picture>
+                </div>
+            </a>
+        </div>
+
+        <div class="mainbanner-description-container">
+            <div class="mainbanner-description">
+                <div class="desription-container">
+                    <h2 class="h2-style-one h2-style-two">The next evolution of Mario fun! Jump in 10/20</h2>
+                    <a href="#" class="preorder-button-a">
+                        <span class="preorder-button scale-increase"></span>
+                        <span class="preorder">Pre-order now</span>
+                    </a>
+                    <a href="#" class="everyone-one everyone-two">
+                        <div class="everyone-container">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39.68 59.53" width="40" height="60" role="img" title="Everyone"><defs><style>.cls-1{fill:#fff}</style></defs><g data-name="Layer 2"><g data-name="Layer 1"><path class="cls-1" d="M39.69 0H0v59.53h39.69V0z"></path><path d="M39.11.64v58.25H.58V.64h38.53"></path><path class="cls-1" d="M2.52 2.71H36.9v9.66H2.52zM2.5 14.47h34.4v35.51H2.5zm.01 42.32v-4.71h6.9v1.1H5.28v.67h3.5v1.1h-3.5v.74h4.29v1.1H2.51zm12.93-3.34a.52.52 0 00-.4-.32 2.53 2.53 0 00-.72-.09c-.61 0-.88.1-.88.28 0 .69 4.87.26 4.87 2 0 1.09-1.64 1.63-4 1.63s-3.7-.73-3.75-1.58h2.65a.69.69 0 00.46.37 2.52 2.52 0 00.79.12c.69 0 1.16-.12 1.16-.35 0-.71-4.88-.22-4.88-2 0-1 1.56-1.5 3.67-1.5 2.35 0 3.43.66 3.63 1.49zm7.02.67h1.09c.86 0 1.32-.12 1.32-.45s-.47-.49-1.11-.49h-1.3zm0 1v1.64h-2.77v-4.68h4c2.82 0 3.75.43 3.75 1.34 0 .55-.44 1-1.43 1.16.9.18 1.44.29 1.44 1.24 0 .61 0 .83.29.83v.14h-2.81a1.83 1.83 0 01-.14-.82c0-.62-.19-.82-1.48-.82zm9.45-1.94V54h1.16c.55 0 1-.14 1-.41s-.54-.38-1.13-.38zm0 1.64v.87h1.21c.69 0 1.21-.08 1.21-.43s-.65-.44-1.53-.44zm-2.77 2v-4.74h4c1.9 0 3.42.25 3.42 1.18 0 .49-.57.84-1.1 1 .91.13 1.4.57 1.4 1.08 0 1.05-1.44 1.42-3.64 1.42z"></path><path d="M5.07 22.68l20.82-6.22 2.08 6.6-10.42 3.11.85 2.7 9.63-2.88 2.09 6.6-9.63 2.87.9 2.84 10.77-3.22 2.08 6.59-21.15 6.32-8.02-25.31m-1.6-12.41V4.8h2.95v.85H4.6V7h1.68v.84H4.6v1.6h1.88v.84zM6.78 4.8H8l.83 4 .94-4h1.12l-1.45 5.47H8.11zm4.6 5.47V4.8h2.95v.85h-1.82V7h1.68v.84h-1.68v1.6h1.88v.84zm4.85 0H15.1V4.8h2.09a1.16 1.16 0 01.92.37 1.5 1.5 0 01.34 1.07 1.64 1.64 0 01-.22.88 1.09 1.09 0 01-.78.46h.26a.87.87 0 01.32.13.89.89 0 01.28.32 1.17 1.17 0 01.12.58v.85c0 .17 0 .32.05.46a1 1 0 00.06.29h-1.09a1.31 1.31 0 01-.11-.52v-.94a.89.89 0 00-.08-.38.47.47 0 00-.26-.26.92.92 0 00-.49-.1h-.29zm0-3.1h.5a.51.51 0 00.27-.08.47.47 0 00.18-.19.8.8 0 00.09-.26 1.41 1.41 0 000-.28.8.8 0 00-.15-.55.57.57 0 00-.43-.16h-.5zm3.94 1.21L18.75 4.8H20l.81 2.31.86-2.31h1.15L21.3 8.38v1.89h-1.13zm4.98 1.98a2.06 2.06 0 01-1.08-.23 1.42 1.42 0 01-.55-.64 2.38 2.38 0 01-.2-.91v-2a2.38 2.38 0 01.2-.91 1.39 1.39 0 01.55-.67 2.55 2.55 0 012.16 0 1.39 1.39 0 01.55.63 2.59 2.59 0 01.2.91v2a2.59 2.59 0 01-.2.91 1.42 1.42 0 01-.55.64 2.06 2.06 0 01-1.08.27zm0-.81a.56.56 0 00.38-.12.79.79 0 00.22-.36 3 3 0 00.1-.63V6.63a3 3 0 00-.1-.62.79.79 0 00-.22-.36.66.66 0 00-.76 0 .72.72 0 00-.22.36 3 3 0 00-.1.62v1.81a3 3 0 00.1.63.72.72 0 00.22.36.56.56 0 00.38.12zm2.77.72V4.8h1.53l1.43 3.79V4.8H32v5.47h-1.53l-1.47-4v4zm4.99 0V4.8h3v.85H34V7h1.67v.84H34v1.6h1.88v.84z"></path></g></g></svg>
+                            <!-- FALTA LO DE DENTRO DEL SVG -->
+                            <div class="everyone-description-container">
+                                <div class="everyone-description">Mild Fantasy Violence</div>
+                                <div class="everyone-description">In-Game Purchases</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="featured">
         <h2 class="header2" id="header2-s3">Featured</h2>
         <img class="img-section3" id="img-s3"
             src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_1200/ncom/en_US/merchandising/secondary-centerstage/2023/PSPV%20The%20Hidden%20Treasure%20of%20Area%20Zero/3580x1080_PSPV-DLC">
         <h3 class="header3" id="header3-s3">The Hidden Treasure of Area Zero Part 1: The Teal Mask releasing on 9/13!
         </h3>
-        <input type="button" class="btn" value="Learn More" id="btn-s3">
+        <input type="button" class="btn scale-increase-2" value="Learn More" id="btn-s3">
         <a href="https://www.esrb.org/ratings-guide/"><img class="img-esrb" id="esrb-s3"
                 src="/assets/img/esrb-s3.png"></a>
         <div class="carousel-container">
@@ -297,7 +664,7 @@
             <img src="assets\img\online-store.png" alt="Store Banner" class="online-store-banner">
                 <h3 class="store-text">Shop games, exclusive Nintendo merchandise, and more!</br> Plus, get free shipping on orders $50 or above
                 </h3>
-            <input type="button" class="btn" value="Start Shopping" id="btn-s4">
+            <input type="button" class="btn scale-increase" value="Start Shopping" id="btn-s4">
         </div>
     </section>
     <section class="gaming-systems-section">
@@ -334,8 +701,7 @@
         </div>
         <div class="sec-news">
             <div class="card-sec" id="card-sec1">
-                <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_800/ncom/en_US/articles/2023/avast-these-games-may-have-ye-speakin-like-an-ole-seadog/2250x1266_Ncom_Pirate2023_EN"
-                    alt="Nintendo News">
+                <img src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_800/ncom/en_US/articles/2023/race-into-even-more-content-with-a-free-update-for-f-zero-99/1280x720_Switch_News_Fzero"  alt="Nintendo News">
                 <p>09/19/23</p>
                 <h5>Avast! These games may have ye speakin like an ole seadog</h5>
                 <a href="#">Read more</a>
@@ -363,7 +729,7 @@
             </div>
         </div>
         <div class="btn-container">
-            <button class="btn" id="btn-s6">
+            <button class="btn scale-increase" id="btn-s6">
                 <i class="fa-regular fa-comment" style="color: #ffffff;"></i>
                 See all news articles
             </button>
@@ -404,7 +770,757 @@
             </div>
         </div>
     </section>
-    <section class="dbsnr ">
+
+    <!-- starts "Digital best sellers" section -->
+    <section class="dbsnr">
+    <div class="bs-and-nr-container">
+        <div class="carousel-title-s8">
+            <h2>Digital best sellers</h2>                
+            <p class="carousel-title-separator-s8">|</p>
+            <p class="full-list"><a href="https://www.nintendo.com/store/games/best-sellers/">See full list</a></p>
+        </div>
+        <div class="carousel-s8-container">
+            <div class="cards-s8-container">
+
+<!-- 1st card -->
+
+                <div class="card-s8" id="card-s8-card1-1">
+                    <img src="assets/img/assets-s8/zelda.avif" alt="The Legend of Zelda™: Tears of the Kingdom image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>The Legend of Zelda™: Tears of the Kingdom</h3>
+                            <p>5/12/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-card1">
+                            <p class="price-s8" id="price-s8-card1">$69.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- 2nd card -->
+
+                <div class="card-s8" id="card-s8-card2-1">
+                    <img src="/assets/img/assets-s8/nba_2k23.avif" alt="NBA 2K23 image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>NBA 2K23</h3>
+                            <p>9/9/22</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- 3rd card -->
+
+                <div class="card-s8" id="card-s8-card3-1">
+                    <img src="assets/img/assets-s8/dont_starve_together.avif" alt="Don't Starve Together image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Don't Starve Together</h3>
+                            <p>4/12/22</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$14.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+<!-- 4th card -->                
+
+                <div class="card-s8" id="card-s8-card4-1">
+                    <img src="assets/img/assets-s8/mario_kart.avif" alt="Mario Kart™ 8 Deluxe image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Mario Kart™ 8 Deluxe</h3>
+                            <p>5/12/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- 5th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card5-1">
+                    <img src="assets-s8/minecraft.avif" alt="Minecraft image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Minecraft</h3>
+                            <p>6/20/18</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$29.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 6th card -->                
+
+                <!-- <div class="card-s8" id="card-s8-card6-1">
+                    <img src="assets-s8/inside.avif" alt="INSIDE image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>INSIDE</h3>
+                            <p>6/28/18</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$19.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 7th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card7-1">
+                    <img src="assets-s8/dragon_ball.avif" alt="DRAGON BALL FIGHTERZ image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>DRAGON BALL FIGHTERZ</h3>
+                            <p>9/28/18</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 8th card -->                
+
+                <!-- <div class="card-s8" id="card-s8-card8-1">
+                    <img src="assets-s8/stardew_valley.avif" alt="Stardew Valley image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Stardew Valley</h3>
+                            <p>10/5/17</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$14.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 9th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card9-1">
+                    <img src="assets-s8/smash_bros.avif" alt="Super Smash Bros.™ Ultimate image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Super Smash Bros.™ Ultimate</h3>
+                            <p>12/7/18</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 10th card -->                
+
+                <!-- <div class="card-s8" id="card-s8-card10-1">
+                    <img src="assets-s8/overcooked.avif" alt="Overcooked Special Edition image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Overcooked Special Edition</h3>
+                            <p>7/27/17</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$19.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 11th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card11-1">
+                    <img src="assets-s8/star_wars.avif" alt="LEGO® Star Wars™: The Skywalker Saga image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>LEGO® Star Wars™: The Skywalker Saga</h3>
+                            <p>4/5/22</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 12th card -->                
+
+                <!-- <div class="card-s8" id="card-s8-card12-1">
+                    <img src="assets-s8/harry_potter.avif" alt="LEGO® Harry Potter™: Collection image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>LEGO® Harry Potter™: Collection</h3>
+                            <p>10/30/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$49.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 13th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card13-1">
+                    <img src="assets-s8/mario_party.avif" alt="Mario Party™ Superstars  image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Mario Party™ Superstars</h3>
+                            <p>10/29/21</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 14th card -->                
+                <!-- <div class="card-s8" id="card-s8-card14-1">
+                    <img src="assets-s8/smb_deluxe.avif" alt="New Super Mario Bros™. U Deluxe image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>New Super Mario Bros™. U Deluxe</h3>
+                            <p>1/11/19</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 15th card -->
+                <!-- <div class="card-s8" id="card-s8-card15-1">
+                    <img src="assets-s8/cadence_hyrule.avif" alt="Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Cadence of Hyrule: Crypt of the NecroDancer Featuring The Legend of Zelda</h3>
+                            <p>6/13/19</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$24.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 16th card -->              
+
+            <!-- <div class="card-s8" id="card-s8-card16-1">
+                <img src="assets-s8/monopoly.avif" alt="MONOPOLY® for Nintendo Switch™ image" class="img-s8-card">
+                <div class="card-s8-text">
+                    <div class="title-date-container">
+                        <h3>MONOPOLY® for Nintendo Switch™</h3>
+                        <p>10/31/17</p>
+                    </div>
+                    <div class="price-platform-container" id="price-platform-container-nba2k23">
+                        <p class="price-s8">$39.99</p>
+                        <div class="platform-heart-s8">
+                            <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+<!-- Left Arrow Button -->
+<button id="prev-s8" class="carousel-arrow-s8 left"><i class="fa-solid fa-chevron-left"></i></button>
+
+<!-- Right Arrow Button -->
+<button id="next-s8" class="carousel-arrow-s8 right"><i class="fa-solid fa-chevron-right"></i></button>
+       </div>
+            </div>
+
+
+<!-- ends "Digital best sellers" section -->
+
+<!-- starts "Digital new releases" section -->
+
+        <div class="carousel-title-s8">
+            <h2 class="title-s8">Digital new releases</h2>                
+            <p class="carousel-title-separator-s8">|</p>
+            <p class="full-list"><a href="https://www.nintendo.com/store/games/best-sellers/">See full list</a></p>
+        </div>
+        <div class="carousel-s8-container">
+            <div class="cards-s8-container">
+
+<!-- 1st card -->
+                <div class="card-s8" id="card-s8-card1-2">
+                    <img src="assets/img/assets-s8/avatar.avif" alt="Avatar The Last Airbender: Quest for Balance image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Avatar The Last Airbender: Quest for Balance</h3>
+                            <p>9/22/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-card1">
+                            <p class="price-s8" id="price-s8-card1-1">$49.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+<!-- 2nd card -->
+
+                <div class="card-s8" id="card-s8-card2-2">
+                    <img src="assets/img/assets-s8/mortal_kombat_1.avif" alt="Mortal Kombat™ 1 image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Mortal Kombat™ 1</h3>
+                            <p>9/19/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$69.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- 3rd card -->
+
+                <div class="card-s8" id="card-s8-card3-2">
+                    <img src="assets/img/assets-s8/gloomhaven.avif" alt="Gloomhaven - Gold Edition image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Gloomhaven - Gold Edition</h3>
+                            <p>9/18/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$44.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+           
+<!-- 4th card -->                
+
+                <div class="card-s8" id="card-s8-card4-2">
+                    <img src="assets/img/assets-s8/war_tales.avif" alt="Wartales image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Wartales</h3>
+                            <p>9/14/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$39.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- 5th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card5-2">
+                    <img src="assets-s8/baten-kaitos.avif" alt="Baten Kaitos I & II HD Remaster image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Baten Kaitos I & II HD Remaster</h3>
+                            <p>9/14/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$49.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 6th card -->                
+
+                <!-- <div class="card-s8" id="card-s8-card6-2">
+                    <img src="assets-s8/super-bomberman-2.avif" alt="SUPER BOMBERMAN R 2 image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>SUPER BOMBERMAN R 2</h3>
+                            <p>9/13/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$49.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 7th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card7-2">
+                    <img src="/s8/assets-s8/myth-force.avif" alt="MythForce image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>MythForce</h3>
+                            <p>9/12/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$29.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 8th card -->                
+
+                <!-- <div class="card-s8" id="card-s8-card8-2">
+                    <img src="/s8/assets-s8/nba-kobe.avif" alt="NBA 2K24 Kobe Bryant Edition image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>NBA 2K24 Kobe Bryant Edition</h3>
+                            <p>9/8/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 -->
+<!-- 9th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card9-2">
+                    <img src="assets-s8/fae-farm.avif" alt="Fae Farm image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Fae Farm</h3>
+                            <p>9/8/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$59.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 10th card -->                
+
+                <!-- <div class="card-s8" id="card-s8-card10-2">
+                    <img src="assets-s8/rune-factory-special3.avif" alt="Run Factory 3 Special image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Run Factory 3 Special</h3>
+                            <p>9/5/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$39.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 -->
+<!-- 11th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card11-2">
+                    <img src="assets-s8/chants-of-seennar.avif" alt="Chants of Sennaar image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Chants of Sennaar</h3>
+                            <p>9/5/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$19.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 12th card -->                
+
+                <!-- <div class="card-s8" id="card-s8-card12-2">
+                    <img src="assets-s8/sea-of-stars.avif" alt="Sea of Stars image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Sea of Stars</h3>
+                            <p>8/29/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$39.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 -->
+<!-- 13th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card13-2">
+                    <img src="/assets-s8/samba-amigo.avif" alt="Samba de Amigo: Party Central image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Samba de Amigo: Party Central</h3>
+                            <p>8/29/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$39.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 14th card -->   
+
+                <!-- <div class="card-s8" id="card-s8-card14-2">
+                    <img src="assets-s8/blasphemous.avif" alt="Blasphemous 2 image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>Blasphemous 2</h3>
+                            <p>8/24/23</p>
+                        </div>
+                        <div class="price-platform-container" id="price-platform-container-nba2k23">
+                            <p class="price-s8">$23.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 15th card -->
+
+                <!-- <div class="card-s8" id="card-s8-card15-2">
+                    <img src="assets-s8/wrestlequest.avif" alt="WrestleQuest image" class="img-s8-card">
+                    <div class="card-s8-text">
+                        <div class="title-date-container">
+                            <h3>WrestleQuest</h3>
+                            <p>8/22/23</p>
+                        </div>
+                        <div class="price-platform-container">
+                            <p class="price-s8">$69.99</p>
+                            <div class="platform-heart-s8">
+                                <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!-- 16th card -->              
+
+            <!-- <div class="card-s8" id="card-s8-card16-2">
+                <img src="assets-s8/bomb_rush.avif" alt="Bomb Rush Cyberfunk image" class="img-s8-card">
+                <div class="card-s8-text">
+                    <div class="title-date-container">
+                        <h3>Bomb Rush Cyberfunk</h3>
+                        <p>8/18/23</p>
+                    </div>
+                    <div class="price-platform-container" id="price-platform-container-nba2k23">
+                        <p class="price-s8">$39.99</p>
+                        <div class="platform-heart-s8">
+                            <p class="platform-s8"><span class="s8-separator">|</span>Nintendo Switch</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="heart-s8" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+
+
+
+<!-- Left Arrow Button -->
+<button id="prev-s8" class="carousel-arrow-s8 left"><i class="fa-solid fa-chevron-left"></i></button>
+
+<!-- Right Arrow Button -->
+<button id="next-s8" class="carousel-arrow-s8 right"><i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+
+        </div>
+    </div>
+
+<!-- ends "Digital new releases" section -->
     </section>
     <section class="socialmedia-banner">
         <div class="social-banner">
@@ -519,13 +1635,48 @@
     <div class="img-container">
         <img src="/assets/img/ESRB footer.png" alt="ESRB" class="img-footer">
     </div>
-    <nav class="bottom-nav">
-    </nav>
     <script src="/js/script.js"></script>
     <section class="dbsnr">
     </section>
-    <nav class="bottom-nav">
-    </nav>
+    <section data-testid="legalbar" class="bottom-nav">
+        <div class="bottom-nav-text-container">
+            <div class="text-container-divide">
+                <p class="property property-styles">
+                    <span>© Nintendo.</span>
+                    <span>Games are property of their respective owners. </span>
+                    <span>Nintendo of America Inc. Headquarters are in Redmond, Washington, USA</span>
+                </p>
+                <div class="options-container">
+                    <a class="options options-style" href="#">
+                        <span class="options-text-style">Contact us</span>
+                    </a>
+                    <a class="options options-style" href="#">
+                        <span class="options-text-style">Website feedback</span>
+                    </a>
+                    <a class="options options-style" href="#">
+                        <span class="options-text-style">Terms of Use</span>
+                    </a>
+                    <a class="options options-style" href="#">
+                        <span class="options-text-style">Documents & Policies</span>
+                    </a>
+                </div>
+                <a class="bottom-flag" href="#">
+                    <span class="bottom-flag-container">
+                        <picture class="bottom-flag-container-picture">
+                            <source type="image/webp" srcset="assets/FlagUSAIconRegionSelect.webp">
+                            <img src="assets/FlagUsaIconRegionSelect.png" alt="Flag of USA" loading="lazy" class="bottom-flag-container-image">
+                        </picture>
+                    </span>
+                    <span data-testid="language-country" class="language">
+                        English
+                        <!-- -->
+                        <!-- -->
+                        United States
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <script src="js/section1.js"></script>
 </body>
-
 </html>

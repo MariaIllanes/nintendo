@@ -1,0 +1,347 @@
+:root {
+    --primario: #484848ff;
+    --secundario: #e60013ff;
+    --blanco: #ffffff;
+    --rojo-oscuro: #ac000d;
+    --blanco-oscuro: #f6e4e5;
+    --gris-claro: rgb(114, 114, 114);
+}
+
+a {
+    text-decoration: none;  
+}
+
+h2 {
+    font-weight: bold;
+    letter-spacing: 0px;
+    margin: 0px 0px 1em;
+    padding: 0px;
+}
+
+@media (min-width: 429px) {
+    h2 {
+        font-size: 1.3125rem;
+    }
+}
+
+.mainbanner-container {
+    position: relative;
+}
+
+.main-banner-background {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-image: url(../assets/mainbanner_background.jpg);
+    background-position: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    background-size: unset;
+    background-repeat: repeat;
+    z-index: -1;
+    height: calc((100% - 2rem) - 1.5rem);
+}
+
+@media (min-width: 623px) {
+    .main-banner-background {
+        height: calc(((100% - 2rem) - 5rem) - 3rem);
+    }
+}
+
+@media (min-width: 1025px) {
+    .main-banner-background {
+        position: absolute;
+        height: calc(100% - 11.4rem)
+    }
+}
+
+.main-banner {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 1025px) {
+    .main-banner  {
+        padding-top: 2rem;
+    }
+    
+}
+
+.main-banner a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mainbanner-picture-container {
+    width: 100%;
+    position: relative;
+}
+
+.pic {
+    width: 100%;
+    display: block;
+    line-height: 0;
+    min-height: 0.063rem;
+    max-width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 1025px) {
+    .pic {
+        width: 96%;
+    }
+}
+
+.mario_image {
+    width: 100%;
+    height: auto;
+    
+}
+
+@media (min-width: 1025px) {
+    .mario_image {
+        border-radius: 1rem;
+        box-shadow: rgba(72, 72, 72, 0.15) 0rem 0.25rem 1rem 0rem;
+    }
+}
+
+.mainbanner-description-container {
+    position: relative;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    scroll-margin-top: 120px;
+}
+
+@media (min-width: 768px) {
+    .mainbanner-description-container {
+        padding-top: 1.5rem;
+        padding-bottom: 3rem;
+    }
+}
+
+.mainbanner-description {
+    max-width: 90rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media (min-width: 768px) {
+    .mainbanner-description {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.desription-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+@media (min-width: 1025px) {
+    .desription-container {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        gap: 2rem;
+        justify-items: start;
+    }
+    
+}
+
+.h2-style-two {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+@media (min-width: 1025px) {
+    .h2-style-two {
+        color: rgb(72, 72, 72);
+        text-align: start;
+    }
+}
+
+.h2-style-one {
+    font-weight: bold;
+    margin-block: 0px;
+    line-height: 1.35;
+    font-size: 1.3125rem;
+}
+
+@media (min-width: 429px) {
+    .h2-style-one {
+        font-size: 1.75rem;
+    }
+}
+
+.preorder-button-a {
+    position: relative;
+    margin: 0rem;
+    background-color: transparent;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    height: 3rem;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+    white-space: nowrap;
+    border: unset;
+    padding: 0rem 1.5rem;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+.preorder-button-a {
+    height: 3rem;
+    font-size: 1.125rem;
+    padding: 0px 1.5rem;
+    width: auto;
+}
+
+@media (min-width: 1025px) {
+    .preorder-button-a {
+        height: 3rem;
+        font-size: 1.125rem;
+        padding: 0px 1.5rem;
+        width: auto;
+    }
+}
+
+.preorder-button {
+    font-size: 1.125rem;
+    background-color: var(--secundario);
+    border-color: var(--secundario);
+    transform: none;
+    position: absolute;
+    box-sizing: content-box;
+    display: block;
+    content: "";
+    border-width: 1px;
+    border-style: solid;
+    height: calc(100% - 2px);
+    width: calc(100% - 2px);
+    top: 0rem;
+    left: 0rem;
+    padding: 0rem;
+    border-radius: 0.75rem;
+}
+
+.scale-increase {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
+@media (min-width: 1025px) {
+  .preorder-button:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--rojo-oscuro); 
+    }
+}
+
+.preorder {
+    font-size: 1.25rem;
+    order: initial;
+    z-index: 1;
+    pointer-events: none;
+    height: 100%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+@media (min-width: 429px) {
+    .desription-container > :nth-child(3) {
+        justify-self: center;
+    }
+}
+
+@media (min-width: 1025px) {
+    .desription-container > :nth-child(3) {
+        justify-self: end;
+    }
+}
+
+.everyone-one {
+    text-decoration: none;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.everyone-two {
+    display: none;
+}
+
+@media (min-width: 623px) {
+    .everyone-two {
+        display: block;
+    }
+}
+
+.everyone-container {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    min-height: 4.25rem;
+    gap: 0.75rem;
+}
+
+.everyone-container svg {
+    min-height: 4.25rem;
+    height: 100%;
+    width: auto;
+    min-width: 2.75rem;
+    display: block;
+}
+
+.everyone-description-container {
+    display: flex;
+    flex: 1 1 0%;
+    min-width: 7.5rem;
+    font-weight: 300;
+    font-size: 0.625rem;
+    line-height: 0.875rem;
+    padding: 0rem;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    width: fit-content;
+    color: rgb(72, 72, 72);
+    max-width: 12.5rem;
+}
+
+@media (min-width: 429px) {
+    .everyone-description-container {
+        font-size: 0.75rem;
+        line-height: 1rem;
+    }
+}
+
+.everyone-description:not(:last-child) {
+    border-bottom: 0.063rem solid rgb(72, 72, 72);
+    padding: 0.25em 0px;
+}
+
+.everyone-description:first-child {
+    padding: 0px 0px 0.25em;
+}
+
+.everyone-description:last-child {
+    padding: 0.25em 0px 0px;
+}
