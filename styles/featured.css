@@ -11,7 +11,7 @@
     padding: 3rem;
     border-bottom: solid lightgray;
     border-width: 0.0625rem;
-    padding-left: 7rem;
+    padding-left: 10%;
 }
 
 #header2-s3 {
@@ -116,6 +116,5 @@
 }
 
 #btn-s3 {
-    width: 10vw;
-    height: 3vw;
+ 
 }
