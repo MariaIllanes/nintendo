@@ -7,7 +7,7 @@ body {
 }
 
 /* Aún no seguro */
-@media (min-width: 625px) {
+@media (min-width:900px) {
 h1 {
     font-size: 2rem;
 }
@@ -20,12 +20,45 @@ h2 {
 
 
 h3 {
- font-size: 2rem;
+ font-size: 1.5rem;
  font-weight: normal;
 }
 }
 
+@media (min-width:625px) {
+    h1 {
+        font-size: 2rem;
+    }
+    
+    
+    h2 {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    
+    h3 {
+     font-size: 1.5rem;
+     font-weight: normal;
+    }
 
+    .btn {
+        border-radius: 0.6rem;
+        background-color: rgb(230, 0, 18);
+        border-color: rgb(230, 0, 18);
+        border-width: 1px;
+        font-size: 1.125rem;
+        color: white;
+        size: 100%;
+        max-width: fit-content;
+        width: 100%;
+        margin: 0;
+        height: 70%;
+    }
+    }
+    
+
+@media (max-width: 625px) {
 h1 {
     font-size: 1rem;
 }
@@ -47,9 +80,16 @@ h3 {
     background-color: rgb(230, 0, 18);
     border-color: rgb(230, 0, 18);
     border-width: 1px;
-    font-size: 1.125rem;
+    font-size: 0.8rem;
     color: white;
+    size: 80%;
+    max-width: fit-content;
+    width: 100%;
+    margin: 0;
+    height: 50%;
 }
+}
+
 
 .btn:hover {
     background-color: rgb(172, 0, 13);
